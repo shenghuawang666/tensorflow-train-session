@@ -90,8 +90,8 @@ plot_history([('baseline',baseline_history),
               ('bigger',bigger_history)])
 
 l2_model = keras.models.Sequential([
-    keras.layers.Dense(16,kernel_regularizer=keras.regularizer.l2(0.001),activation=tf.nn.relu,input_shape=(NUM_WORD,)),
-    keras.layers.Dense(16,kernel_regularizer=keras.regularizer.l2(0.001),activation=tf.nn.relu),
+    keras.layers.Dense(16,kernel_regularizer=keras.regularizers.l2(0.001),activation=tf.nn.relu,input_shape=(NUM_WORD,)),
+    keras.layers.Dense(16,kernel_regularizer=keras.regularizers.l2(0.001),activation=tf.nn.relu),
     keras.layers.Dense(1,activation=tf.nn.sigmoid)
     ])
 
