@@ -15,3 +15,8 @@ app2
 我们将使用 IMDB 数据集，其中包含来自互联网电影数据库的 50000 条影评文本。我们将这些影评拆分为训练集（25000 条影评）和测试集（25000 条影评）。训练集和测试集之间达成了平衡，意味着它们包含相同数量的正面和负面影评。
 
 原文链接：https://www.tensorflow.org/tutorials/keras/basic_text_classification
+
+app4 
+over fitting 的举例说明，举例 使用不同的隐藏层时 过耦合的具体情况。
+
+原文链接：https://www.tensorflow.org/tutorials/keras/overfit_and_underfit
